@@ -1,0 +1,177 @@
+/*  reset the page 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*/
+
+body {
+  background-color: #e0e0e0;
+  color: #555555;
+
+  /*
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: normal;
+  */
+
+  /* shorter way */
+  font: normal 15px "Courier New", Courier, monospace;
+
+  line-height: 1em;
+  margin: 5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: purple;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+.button:hover {
+  background-color: green;
+}
+
+.clr {
+  clear: both;
+}
+.box-1 {
+  font-weight: 400;
+  background-color: rgba(206, 90, 90, 0.267);
+
+  border: 2px rgb(143, 104, 104) solid;
+  border-top-style: dashed;
+  border-radius: 2%;
+
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+}
+
+.box-2 {
+  border: 2px rgb(143, 104, 104) solid;
+  padding: 20px;
+  margin: 20px 0;
+}
+.box-2 h1 {
+  text-align: center;
+}
+
+.categories {
+  border: 2px rgb(143, 104, 104) dashed;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.categories h1 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.categories li {
+  padding-bottom: 5px;
+  border-bottom: dotted 1px green;
+  list-style-image: url("../img/check.png");
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 5px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.block h3 {
+  text-align: center;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#side-bar {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #333;
+  margin-top: 30px;
+  position: relative;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+}
+
+.p-box h2 {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
