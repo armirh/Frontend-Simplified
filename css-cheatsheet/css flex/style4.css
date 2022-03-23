@@ -5,10 +5,14 @@
 .container {
   border: 2px solid red;
   padding: 24px 24px 0 24px;
+}
+
+.row {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  max-width: 800px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .box {
