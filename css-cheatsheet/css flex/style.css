@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 4px red solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.small-block {
+  width: 80px;
+  height: 80px;
+  margin-left: 25px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}

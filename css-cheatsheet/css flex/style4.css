@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 24px 24px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.box {
+  border: 3px solid lightgray;
+  margin-bottom: 24px;
+}
+
+.box-wrapper {
+  width: 50%;
+  padding-right: 24px;
+}
+
+.box-large {
+  width: 50%;
+}
+
+.box-small {
+  height: 50px;
+}
