@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #cafdff;
+}
+
+header {
+  background-color: #eadcff;
+  height: calc(100vh - 70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheader {
+  font-size: 45px;
+  margin: 16px 0 24px 0;
+}
+
+button {
+  background-color: #05c7cf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 72px;
+}
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+ABOUT SECTION
+*/
+#about {
+  padding: 48px 0;
+  background-color: #f8ffdc;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-dscp {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.about_image-wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.section-dscp-wrapper {
+  width: 50%;
+  padding: 0 24px;
+}
+
+.section-paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* 
+DISCORD SECTION
+*/
+
+#discord {
+  background-color: #cefeff;
+  padding: 48px 0;
+}
+
+/* 
+Contact SECTION
+*/
+
+#contact {
+  background-color: #dce9ff;
+}
+
+form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+.contact-button {
+  margin-bottom: 25px;
+}
+
+/* 
+Footer SECTION
+*/
+#footer {
+  padding: 48px 0;
+}
+
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-img {
+  max-width: 400px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.footer-links {
+  margin-bottom: 32px;
+}
+
+.footer-links {
+  padding: 0 16px;
+}
+
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+  .home-dscp {
+    margin-bottom: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-button {
+    max-width: 240px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .subheader {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .section-dscp {
+    flex-direction: column;
+  }
+
+  .section-dscp-wrapper {
+    width: 100%;
+  }
+  .about_image-wrapper {
+    width: 100%;
+  }
+
+  #discord .section-dscp {
+    flex-direction: column-reverse;
+  }
+
+  footer {
+    padding: 48px 24px;
+  }
+
+  .footer-img {
+    max-width: 250px;
+  }
+}
