@@ -47,3 +47,10 @@ button:active {
 .btn-decrement:hover {
   background-color: rgb(129, 5, 5);
 }
+
+.btn-reset {
+  display: flex;
+  margin-left: 375px;
+  margin-top: 25px;
+  background-color: #666;
+}

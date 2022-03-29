@@ -17,3 +17,8 @@ function decrement() {
     count -= 1;
     countEl.innerHTML = count
 }
+
+function resetvalue(){
+    count = 0
+    countEl.innerHTML = count
+}
