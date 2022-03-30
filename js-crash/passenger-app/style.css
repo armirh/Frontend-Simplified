@@ -50,7 +50,10 @@ button:active {
 
 .btn-reset {
   display: flex;
-  margin-left: 375px;
-  margin-top: 25px;
+  margin: 25px auto;
   background-color: #666;
+}
+
+.body-paragraph {
+  font-size: 20px;
 }

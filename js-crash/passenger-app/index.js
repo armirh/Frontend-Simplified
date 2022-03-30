@@ -18,7 +18,12 @@ function decrement() {
     countEl.innerHTML = count
 }
 
-function resetvalue(){
+function resetValue(){
     count = 0
     countEl.innerHTML = count
+}
+
+function save() {
+    countEl.innerHTML = count
+    alert(count)
 }
