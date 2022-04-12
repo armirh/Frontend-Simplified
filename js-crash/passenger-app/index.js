@@ -6,6 +6,9 @@
 // change the count-el in the HTML to reflect the new count
 
 let countEl = document.getElementById("count-el")
+let welcomeEL = document.getElementById("welcome-el")
+let saveEl = document.getElementById("save-el")
+
 let count = 0;
 
 function increment() {
@@ -24,6 +27,13 @@ function resetValue(){
 }
 
 function save() {
-    countEl.innerHTML = count
-    alert(count)
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+}
+
+function greeting() {
+    let name = "Armir!"
+    let greeting = "Welcome back "
+    
+    welcomeEL.innerText = greeting + name;
 }
