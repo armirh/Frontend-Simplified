@@ -55,3 +55,58 @@ for (let count = 10; count < 21; count += 1) {
 for (let i = 10; i <=100; i += 10){
     console.log(i)
 }
+
+// print array with for loop
+let linkedElements = ["2 years experience",
+                        "University of Houston-Clear Lake",
+                        "Data structures and Algorithms",
+                        "Python, Django",
+                        "Communication",
+                        "another one"]
+
+for (let i = 0; i < linkedElements.length; i += 1){
+    console.log(linkedElements[i])
+}
+
+// practice. loop out the card items
+
+let cardDeck = [1,3,5,7,9]
+
+for (let i = 0; i < cardDeck.length; i++) {
+    console.log(cardDeck[i])
+}
+
+
+// rendering the sentence in the greetingEl paragraph
+
+let sentence = ["Hello,", "my", "name", "is", "Armir"]
+let greetingEl = document.getElementById("greeting-el")
+
+
+for (let i = 0; i<sentence.length; i++){
+    greetingEl.textContent += sentence[i] + " "
+}
+
+
+// math random with a dice
+
+function rollDice() {
+    let randomNumber = Math.floor(Math.random() *6 ) + 1
+    return randomNumber
+}
+
+console.log(rollDice())
+
+
+// Intro to objects, store data in depth -- key:value pairs
+
+// a more complex object
+let course = {
+    title: "Learn CSS grid for free",
+    lesson: 16,
+    creator: "Armir Halimi",
+    length: 63,
+    level: 2,
+    tags: ["html", "css"]
+}
+console.log(course.title)
