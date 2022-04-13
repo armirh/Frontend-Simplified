@@ -48,3 +48,10 @@ console.log(myProfile)
 for (let count = 10; count < 21; count += 1) {
     console.log(count)
 }
+
+// create a loop that counts from 10 to 100 in steps of 10
+// log out the numbers
+
+for (let i = 10; i <=100; i += 10){
+    console.log(i)
+}
